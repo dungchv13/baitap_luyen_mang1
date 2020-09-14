@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [],b = [],c = [];
+    for (let i = 0;i < 10;i++){
+        a[i] = prompt("nhap phan tu a["+i+"]");
+    }
+    for (let i = 0;i < 10;i++){
+        b[i] = prompt("nhap phan tu b["+i+"]");
+    }
+    c = a;
+    for (let i = 0;i < 10;i++){
+        c.push(b[i]);
+    }
+    for (let i = 0;i < 20;i++){
+        document.write(c[i]+"<br>");
+    }
+</script>
+</body>
+</html>

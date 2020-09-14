@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = [45,656,213,8465,212,546,21,8,65,1,5465,46,5];
+    let max = array[0];
+    let sum = 0 ;
+    for(let i = 0;i < array.length;i++){
+        if (max < array[i]){
+            max = array[i];
+        }
+        sum += array[i];
+    }
+    document.write("phan tu co gia tri lon nhat trong mang la:"+max);
+    document.write("<br>gia tri trung binh cac phan tu trong mang la:"+sum/(array.length+1));
+</script>
+</body>
+</html>

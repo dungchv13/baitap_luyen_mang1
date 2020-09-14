@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = [12,545,48,21,65,84,46,92,654,54];
+    let max = array[0];
+    let b;
+    for (let i = 1;i < array.length;i++){
+        if(max < array[i]){
+            max = array[i];
+            b = i;
+        }
+    }
+    document.write("gia tri lon nhat trong mang la: "+max+"<br>gia tri lon nhat nam o vi tri array["+b+"]");
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = [];
+    for(let i = 0;i < 10;i++){
+        array[i] = prompt("hay nhap phan tu array["+i+"]");
+    }
+    array.sort(function (a,b){
+        return b - a;
+    });
+    for(let i = 0;i < 10;i++){
+        document.write("array["+i+"]= "+array[i]+"<br>");
+    };
+
+</script>
+</body>
+</html>
