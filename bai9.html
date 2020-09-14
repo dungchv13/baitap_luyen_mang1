@@ -13,10 +13,8 @@
     for (let i = 0;i < 10;i++){
         b[i] = prompt("nhap phan tu b["+i+"]");
     }
-    c = a;
-    for (let i = 0;i < 10;i++){
-        c.push(b[i]);
-    }
+    c = a.concat(b);
+
     for (let i = 0;i < 20;i++){
         document.write(c[i]+"<br>");
     }
